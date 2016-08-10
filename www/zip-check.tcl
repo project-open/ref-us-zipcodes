@@ -15,7 +15,7 @@ set package_admin_p [ad_permission_p $package_id admin]
 ad_require_permission $package_id admin
 set this_user_id [ad_conn user_id]
 
-set system_name [ad_parameter -package_id [ad_acs_kernel_id] SystemName]
+set system_name [parameter::get_from_package_key -package_key "acs-kernel" -parameter "SystemName" -default "SystemName"]
 
 db_multirow zipcodes zipcode_select {
     select s.abbrev, z.zipcode, z.latitude, z.longitude
