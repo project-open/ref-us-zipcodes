@@ -14,6 +14,7 @@
     </database-support>
         <owner url="mailto:jon@jongriffin.com">Jon Griffin</owner>
         <summary>US Zipcodes</summary>
+        <release-date>2016-11-15</release-date>
         <vendor url="http://www.mayuli.com">Mayuli Enterprises, LLC</vendor>
         <description format="text/html">Provides zipcode, name, FIPS state and county codes, latitude and longitude.  Does not provide ZIP+4 data. zipcode data is merged with ZCTL data from US Census Bureau. see http://www.census.gov/geo/ZCTA/zcta.html</description>
 
